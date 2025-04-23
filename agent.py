@@ -40,6 +40,17 @@ def save_text_to_pdf(text: str, image_paths: list[str], filename: str):
     line_height = 16
     index = 0
 
+    # Set up the PDF title
+    title = "Object Detection Report"
+    
+
+    title_font_size = 20
+    c.setFont("Helvetica-Bold", title_font_size)
+    c.drawCentredString(width / 2, y, title)
+    y -= (title_font_size + 20)
+
+    c.setFont("Helvetica", 12)  # Reset font for body
+
     for paragraph in text.strip().split("\n\n"):
         wrapped_lines = []
         for line in paragraph.split("\n"):
