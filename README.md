@@ -24,9 +24,7 @@ The agent expects a CSV file where each row represents an observed object. Here�
 
 
 - **Time** – When the object was observed  
-- **X, Y** – Coordinates of the object  
-- **Object Name** – Name of the detected object  
-- **Object Status** – A short note like "Flipped", "Broken", or leave empty if unknown  
+- **Object Class** – Name of the detected object   
 - **ImagePath** – Local path to the image of the object
 
 ## Usage
