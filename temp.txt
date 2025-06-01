@@ -1,0 +1,3 @@
+Time,Object Name,ImagePath
+17:00,12,19,Bottle,Flipped,detected_images/bottle.jpg
+11:00,18,20,Paper,—,detected_images/paper.jpg
