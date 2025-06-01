@@ -23,9 +23,9 @@ Make sure you have the following installed before running the project:
 The agent expects a CSV file where each row represents an observed object. Here’s a quick breakdown of the format:
 
 
-- **Time** – When the object was observed  
+- **Timestamp** – When the object was observed  
 - **Object Class** – Name of the detected object   
-- **ImagePath** – Local path to the image of the object
+- **Image Path** – Local path to the image of the object
 
 ## Usage
 
